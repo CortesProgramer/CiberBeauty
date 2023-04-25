@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background: rgba(255, 136, 156, 0.205);
+}
+
+.titulo {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #333;
+	font-family: sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.flex-item {
+	flex-grow: 1;
+	margin: 20px;
+	max-width: 300px;
+	border: 2px solid #333;
+	padding: 0 20px;
+}
+
+.flex-item:hover {
+	border-color: #ff0073;
+	box-shadow: 0px 0px 20px #ff0073
+}
+.flex-item:focus {
+	border-color: #71a154;
+	box-shadow: 0px 0px 30px #a8009a
+}
+
+h2,h3 {
+	margin: 0;
+}
+
+h3 {
+	color: #a8009a
+}
+
+p b {
+	color: #a8009a
+}
+
+.labial-img {
+	width: 300px;
+}
+
+
+.formulario1 {
+	width: 100%;
+	text-align: center;
+	padding: 50px;
+}
+
+input[type="submit"]{
+	background: #e100a2;
+	color: #fff;
+	border: none;
+	padding: 12px 36px;
+	font-size: 17px;
+	letter-spacing: 1px
+}
+
+#formulario {
+    display: flex;
+    margin-top: 15px;
+}
