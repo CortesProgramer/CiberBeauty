@@ -14,7 +14,7 @@ let documentFragment = document.createDocumentFragment();
 for (var i = 1; i <= 20; i++) {
     let modeloRandom = Math.round(Math.random() * 10000);
     let precioRandom = Math.round(Math.random() * 99 + 1);
-    let labial = crearLabial(`labial ${i}`, `modelo ${modeloRandom}`, precioRandom);
+    let labial = crearLabial(`Labial ${i}`, `Modelo ${modeloRandom}`, precioRandom);
     let div = document.createElement("DIV");
     div.addEventListener("click", () => {
         document.querySelector(".makeup-data").value = modeloRandom
